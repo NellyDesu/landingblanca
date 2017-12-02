@@ -31,6 +31,26 @@ p {
     background-color: #fff;
 }
 
+h1 {
+    font-size: 70px;
+}
+
+video {
+    background-color: rgba(23, 229, 167, 0.075);
+}
+
+#video-background {
+    /*  making the video fullscreen  */
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -100;
+}
+
 #video-background {
     /*  making the video fullscreen  */
     position: fixed;
@@ -43,9 +63,16 @@ p {
     z-index: -100;
 }
 
+#first {
+    margin-top: 20%;
+}
+
 .mascara {
-    background-color: rgba(100, 100, 200, 0.5);
-    z-index: 100;
+    background: rgba(0, 0, 0, 0.5);
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    z-index: -1;
 }
 
 textarea:focus,
