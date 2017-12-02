@@ -27,6 +27,15 @@ p {
     font-weight: 600;
 }
 
+#txt1 {
+    font-family: 'Lobster', cursive;
+    color: white;
+    padding: 3%;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 600;
+}
+
 #ponche {
     height: 50%;
 }
@@ -78,6 +87,10 @@ video {
     width: 100%;
     position: absolute;
     z-index: -1;
+}
+
+.vinito{
+    background-color: rgb(143, 27, 64);
 }
 
 textarea:focus,
