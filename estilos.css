@@ -2,9 +2,13 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
+h1, h2, h3, p{
+    color: white;
+}
+
 #video-background {
     /*  making the video fullscreen  */
-      position: fixed;
+      position: absolute;
       right: 0; 
       bottom: 0;
       min-width: 100%; 
