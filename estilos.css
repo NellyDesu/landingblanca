@@ -26,6 +26,15 @@ p {
     font-weight: 600;
 }
 
+#sub {
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+#underline {
+    text-decoration: underline;
+    text-decoration-color: #8d0f0f;
+}
+
 #titulo {
     font-family: 'Pacifico', cursive;
 }
