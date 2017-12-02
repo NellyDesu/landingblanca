@@ -19,7 +19,6 @@ p {
 }
 
 #txt2 {
-    font-family: 'Lobster', cursive;
     color: #8d0f0f;
     padding: 3%;
     text-align: center;
@@ -36,6 +35,14 @@ p {
     font-weight: 600;
 }
 
+.black{
+    color: black;
+}
+
+#titulo {
+    font-family: 'Pacifico', cursive;
+}
+
 #ponche {
     height: 50%;
 }
@@ -43,6 +50,11 @@ p {
 .info {
     margin-top: 100px;
     background-color: #fff;
+}
+
+#boton {
+    border-color: #8d0f0f;
+    background-color: #8d0f0f;
 }
 
 h1 {
@@ -87,10 +99,6 @@ video {
     width: 100%;
     position: absolute;
     z-index: -1;
-}
-
-.vinito{
-    background-color: rgb(143, 27, 64);
 }
 
 textarea:focus,
